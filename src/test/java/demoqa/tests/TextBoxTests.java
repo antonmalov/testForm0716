@@ -30,8 +30,5 @@ public class TextBoxTests {
         $("#output #email").shouldHave(text("Email:sdfsd@mail.com"));
         $("#output #currentAddress").shouldHave(text("Current Address :Some address1"));
         $("#output #permanentAddress").shouldHave(text("Permananet Address :Some address2"));
-
-
-
     }
 }
